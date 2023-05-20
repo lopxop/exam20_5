@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tab Panels Example with Forms</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css">
+    <style>
+        .row {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container mt-4">
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="tab" href="#Details">Details</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#Attributes">Attributes</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#Credentials">Credentials</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#RoleMappings">Role Mappings</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#Groups">Groups</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#Consents">Consents</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#Sessions">Sessions</a>
+        </li>
+    </ul>
+
+    <div class="tab-content mt-2">
+        <div class="tab-pane fade show active" id="Details">
+            <h4>Details Tab</h4>
+            <form>
+                <div class="form">
+                    <div class="row">
+                        <div class="col-2">
+                            <label for="id" class="form-label">id:</label>
+                        </div>
+                        <div class="col-10">
+                            <input type="text" class="form-control" id="id" placeholder="haksdz87213gsadgas7d">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <label for="Create At" class="form-label">Create At:</label>
+                        </div>
+                        <div class="col-10">
+                            <input type="text" class="form-control" id="Create At" placeholder="7/12/2023">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <label for="Username" class="form-label">Username:</label>
+                        </div>
+                        <div class="col-10">
+                            <input type="text" class="form-control" id="Username" placeholder="Abc">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <label for="Email" class="form-label">Email:</label>
+                        </div>
+                        <div class="col-10">
+                            <input type="text" class="form-control" id="Email" placeholder="Abc">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <label for="FirstName" class="form-label">First Name:</label>
+                        </div>
+                        <div class="col-10">
+                            <input type="text" class="form-control" id="FirstName" placeholder="Abc">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <label for="LastName" class="form-label">Last Name:</label>
+                        </div>
+                        <div class="col-10">
+                            <input type="text" class="form-control" id="LastName" placeholder="Abc">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <label for="User enabled" class="form-label">User enabled:</label>
+                        </div>
+                        <div class="col-10">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <label for="Email verified" class="form-label">Email verified:</label>
+                        </div>
+                        <div class="col-10">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <label for="Required-User-actions" class="form-label">Required User actions:</label>
+                        </div>
+                        <div class="col-10">
+                            <input type="text" class="form-control" id="Required-User-actions" placeholder="Abc">
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Save</button>
+                <button class="btn btn-primary">Cancel</button>
+            </form>
+        </div>
+        <div class="tab-pane fade" id="Attributes">
+            <h4>Attributes Tab</h4>
+        </div>
+        <div class="tab-pane fade" id="Credentials">
+            <h4>Credentials Tab</h4>
+        </div>
+        <div class="tab-pane fade" id="RoleMappings">
+            <h4>Credentials Tab</h4>
+        </div>
+        <div class="tab-pane fade" id="Groups">
+            <h4>Credentials Tab</h4>
+        </div>
+        <div class="tab-pane fade" id="Consents">
+            <h4>Credentials Tab</h4>
+        </div>
+        <div class="tab-pane fade" id="Sessions">
+            <h4>Credentials Tab</h4>
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
